@@ -1,0 +1,102 @@
+#nav-mobile > li, #nav-mobile > li > a {
+  width: 100%
+}
+#nav-mobile > li {
+  padding: 0 0 ;
+}
+#nav-mobile > li > a, #nav-mobile > li > ul > li > a {
+  padding: 0 30px;
+  margin: 0;
+}
+
+nav .brand-title {
+  left: 6rem;
+}
+header > nav > .button-collapse {
+  left: 2%;
+}
+.container-85 {
+  width: 85%;
+}
+.container-80 {
+  width: 80%;
+}
+.container-85 > .marg-left {
+  margin-left: 1rem;
+}
+.fixed-sidenav header, .fixed-sidenav main, .fixed-sidenav footer {
+  padding-left: 240px;
+}
+
+article {
+  font-size: 1.2rem;
+  color: rgba(0,0,0,0.7);
+}
+article img, article video {
+  max-width: 100%;
+  height: auto;
+}
+pre {
+  background-color: #fafafa;
+  padding: 2rem;
+}
+h1.header::after {
+  content: "¬";
+  opacity: 0.4;
+}
+blockquote {
+  background-color: #fafafa;
+  border-left: none;
+  color: rgba(0,0,0,0.6);
+  font-size: 1.6rem;
+}
+blockquote p {
+  padding: 2rem;
+}
+nav .brand-logo, #breadcumb {
+  left: 0;
+}
+#breadcumb {
+  display: none;
+}
+@media only screen and (max-width: 992px){
+  .fixed-sidenav header, .fixed-sidenav main, .fixed-sidenav footer{padding-left:0}
+  nav .brand-logo, #breadcumb {
+    margin-left: 35px;
+  }
+}
+#nav-mobile.side-nav.fixed.kiri {
+  left: -105%;
+}
+.kiri-35 {
+  margin-left: 35px;
+}
+#logo-container.brand-logo {
+  position:inherit;
+  font-size: 24px;
+}
+.page-footer svg {
+  margin: -9px 5px;
+}
+#social li {
+  margin : 5px 0;
+}
+#contributor, #social, #pages {
+  font-weight: 500;
+}
+.btn-flat {
+  font-weight: 500;
+}
+.card .card-content.black-text p, .card .card-reveal, .collection p {
+  color: rgba(0, 0, 0, 0.7);
+}
+.collection div{
+  position:absolute;
+  left:10px;
+}
+.collection div img {
+  height: 100%;
+}
+.card .btn-flat {
+  margin: 0px 6px 20px 6px;
+}

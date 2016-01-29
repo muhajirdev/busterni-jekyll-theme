@@ -1,0 +1,42 @@
+# Site settings
+title:       Fossframe
+email:       admin@fossframe.com
+author:      Muhammad Muhajir
+description: "Just frames of foss"
+baseurl:     ""
+url:         "http://fossframe.com"
+date_format: "%b %-d, %Y"
+permalink: none
+
+# Google services
+
+google_analytics: UA-71787081-1
+# google_verification:
+
+# # Social icons
+# github_username:
+facebook_username: fossframe
+twitter_username: fossframe
+google_plus_id: FossFrame
+
+# Categories to loop
+lessons :
+  - pascal
+  - pasir
+
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+sass:
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
